@@ -20,7 +20,7 @@ Betweenness centrality: Number of locations connected through an airport.
 
 K-Cores: Subgraphs containing only vertices adjacent to at least k other vertices.
 ## Package Versions
-python---3.7.6 
+python---3.7.6<br/>
 numpy---1.21.6 
 matplotlib---3.1.3 
 pandas---1.0.1 
