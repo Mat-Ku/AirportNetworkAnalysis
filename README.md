@@ -21,10 +21,10 @@ Betweenness centrality: Number of locations connected through an airport.
 K-Cores: Subgraphs containing only vertices adjacent to at least k other vertices.
 ## Package Versions
 python---3.7.6<br/>
-numpy---1.21.6 
-matplotlib---3.1.3 
-pandas---1.0.1 
-networkx---2.4 
+numpy---1.21.6<br/>
+matplotlib---3.1.3<br/>
+pandas---1.0.1<br/>
+networkx---2.4<br/>
 geopy---2.2.0
 ## Results
 Results are plotted in 'network_analysis.ipynb'.
