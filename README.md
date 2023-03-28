@@ -19,6 +19,13 @@ Degree centrality: Number of routes connected to an airport.
 Betweenness centrality: Number of locations connected through an airport.
 
 K-Cores: Subgraphs containing only vertices adjacent to at least k other vertices.
+## Package Versions
+python---3.7.6
+numpy---1.21.6
+matplotlib---3.1.3
+pandas---1.0.1
+networkx---2.4
+geopy---2.2.0
 ## Results
 Results are plotted in 'network_analysis.ipynb'.
 
