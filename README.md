@@ -6,9 +6,10 @@ An analysis of airport locations and airline routes.
 In this project, airport and airline data is thoroughly investigated in order to compare the interconnectivity of developed countries in contrast to developing countries. The airport network is therefore inspected in terms of popular graph theory figures, such as degree centrality, betweenness centrality and k-cores. Beyond this, potentially isolated airport clusters are identified. The results are presented in such a way that airports located in developed countries can be distinguished from airports in developing countries, thereby allowing an inference on the differences in terms of interconnectivity of both regions.
 
 ## Data
-Airports: https://www.kaggle.com/datasets/moonnectar/airline-routes-92k-and-airports-10k-dataset?select=Full_Merge_of_All_Unique+Airports.csv<br/>
-Airline routes: https://www.kaggle.com/datasets/moonnectar/airline-routes-92k-and-airports-10k-dataset?select=Full_Merge_of_All_Unique_Routes.csv<br/>
-<br/>
+Full Merge of all unique airports (Nicholls, 2021): https://www.kaggle.com/datasets/moonnectar/airline-routes-92k-and-airports-10k-dataset?select=Full_Merge_of_All_Unique+Airports.csv
+
+Full merge of all unique routes (Nicholls, 2021): https://www.kaggle.com/datasets/moonnectar/airline-routes-92k-and-airports-10k-dataset?select=Full_Merge_of_All_Unique_Routes.csv
+
 The file 'exploration_and_preprocessing.ipynb' reads in both datasets, conducts certain preprocessing steps and creates an altered Airports dataset in the end. The Airline routes dataset remains unchanged. 
 This altered dataset, as well as the Airline routes dataset are then used in 'network_analysis.ipynb' for conducting the analysis and gathering the results.
 
