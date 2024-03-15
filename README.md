@@ -18,14 +18,18 @@ Betweenness centrality: Number of locations connected through an airport.<br/>
 K-Cores: Subgraphs containing only vertices adjacent to at least k other vertices.<br/>
 
 ## Results
-Results are plotted in 'network_analysis.ipynb'.<br/>
-<br/>
 Among the 20 highest-scoring airport locations in terms of degree centrality, only 7 are located in developing countries.
-Among the 20 highest-scoring airport locations in terms of betweenness centrality, only 8 are located in developing countries.<br/>
-<br/>
-The network contains six clusters. One cluster can be considered the main cluster as it contains more than 99% of airports. The five remaining clusters, which neither have any connection to the main cluster nor any connection between each other, are composed of small airports on the US Virgin Islands, in Alaska, Nevada and New Caledonia. However, a quick research revealed that, in reality, they do have connections to the main cluster, but data seems to be missing in the applied datasets.<br/>
-<br/>
-With respect to the k-Core statistics, k=20, 30 and 40 were inspected. While the 20-Core scenario is almost equally split between developed (53%) and developing locations (47%), the ratio is changing in favor of airports located in developed countries for k=30 (57% to 43%) and k=40 (84% to 16%). This proves that developing countries tend to have a significantly denser airport interconnectivity. 
+![image](images/degree_centrality.png "Degree Centrality")
+
+Among the 20 highest-scoring airport locations in terms of betweenness centrality, only 8 are located in developing countries.
+![image](images/betweenness_centrality.png "Betweenness Centrality")
+
+The network contains six clusters. One cluster can be considered the main cluster as it contains more than 99% of airports. The five remaining clusters, which neither have any connection to the main cluster nor any connection between each other, are composed of small airports on the US Virgin Islands, in Alaska, Nevada and New Caledonia. However, a quick research revealed that, in reality, they do have connections to the main cluster, but data seems to be missing in the applied datasets.
+![image](images/network.png "Network")
+
+With respect to the k-Core statistics, k=20, 30 and 40 were inspected. While the 20-Core scenario is almost equally split between developed (53%) and developing locations (47%), the ratio is changing in favor of airports located in developed countries for k=30 (57% to 43%) and k=40 (84% to 16%). This proves that developing countries tend to have a significantly denser airport interconnectivity.
+![image](images/k_cores.png "K-Cores")
+
 
 ## Package Versions
 python---3.7.6<br/>
